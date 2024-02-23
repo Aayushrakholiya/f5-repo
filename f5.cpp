@@ -3,7 +3,7 @@
 // function declaration
 int getNum();
 void modifyArrayValues(int myarray[], int size);
-
+int maxArrayValue(int myarray[], int size);
 
 
 int main(void) {
@@ -14,7 +14,10 @@ int main(void) {
 
 
 	modifyArrayValues(UserDefineValues, 10);
+	int Index = maxArrayValue(UserDefineValues, 10);
 
+	// print the highest value and it index
+	printf("highest value is %d at index %d\n", UserDefineValues[Index], Index);
 	
 	return 0;
 	
@@ -30,6 +33,21 @@ void modifyArrayValues(int myarray[], int size) {
 
 	}
 }
+int maxArrayValue(int myarray[], int size) {
+	int HighestValue = myarray[0];
+	int Index = 0;
+	int i = 0;
+	for (i = 1; i < 10; i++) {
+		// check the highest value 
+		if (myarray[i] > HighestValue)
+		{
+			HighestValue = myarray[i];
+			Index = i;
+		}
+	}
+	return Index;
+}
+
 
 
 #pragma warning(disable: 4996) // required by Visual Studio
