@@ -1,0 +1,23 @@
+commit 97c82af9f67364906ec1d2f972516884ea4b01cf
+Author: ayushrakholiya <rakholiyaayush861@gmail.com>
+Date:   Fri Feb 23 16:23:15 2024 -0500
+
+    File
+
+commit d5241f3c13a85d6a1c6583b18bcb3bb62ef07925
+Author: ayushrakholiya <rakholiyaayush861@gmail.com>
+Date:   Fri Feb 23 16:18:07 2024 -0500
+
+    created a function modifyArrayValues prompts the user and gets values for all of the array element
+
+commit f8952563450860d95d1a15f98b51fc3f7d6f210c
+Author: ayushrakholiya <rakholiyaayush861@gmail.com>
+Date:   Fri Feb 23 16:14:34 2024 -0500
+
+    created a function maxArrayValue which loops throught the array and shows the maximum value
+
+commit 3237f2f94f9c1c71a2b1ff039232cecf147cad98
+Author: ayushrakholiya <rakholiyaayush861@gmail.com>
+Date:   Fri Feb 23 16:10:50 2024 -0500
+
+    first commit
